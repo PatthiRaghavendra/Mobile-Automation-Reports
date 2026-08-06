@@ -1,0 +1,37 @@
+name: Publish to GitHub Pages
+
+# The old setup relied on GitHub's legacy Jekyll-based Pages build, which
+# processes pushes to gh-pages asynchronously and — in practice, repeatedly —
+# stalled or errored with no useful diagnostics, leaving report/asset links
+# dead for minutes to indefinitely. This publishes via the modern GitHub
+# Actions Pages deployment instead: it runs synchronously as part of this
+# workflow, so success/failure is known immediately, with none of the
+# legacy build queue's opacity.
+
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
