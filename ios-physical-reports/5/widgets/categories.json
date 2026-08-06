@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"c71da197e582b1cdf0e86baf7191896d","name":"Assertion / product defect","statistic":{"failed":3,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":3}},{"uid":"6af458fa31f2827ac7674bb68d70cc54","name":"Timeout / wait expired","statistic":{"failed":0,"broken":17,"skipped":0,"passed":0,"unknown":0,"total":17}}]}
