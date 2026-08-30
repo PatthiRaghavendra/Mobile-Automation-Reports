@@ -1,0 +1,180 @@
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:14.565     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.329     0     0 D logd    : logdr: UID=2000 GID=2000 PID=6989 n tail=0 logMask=10 pid=0 start=0ns timeout=0ns
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.161  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.161  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.162  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.162  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.163  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.193  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.196  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff0000006a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff0000006a"}}
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.211  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000006a/attribute/displayed
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.211  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.214  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.223  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000006a/clear
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.223  6053  6096 I appium  : Clear command
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.226  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.243  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.277  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000006a/value
+Sun Aug 30 21:27:44 UTC 2026 [ALL] 08-30 21:27:44.277  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:44.737  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.246  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.256  1407  1407 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.447  6111  6127 I om.habitnu.sta: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: Decoder.dump():1123 Failed to get dump info
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] qep.d()' on a null object reference
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at com.google.android.keyboard.client.delight5.Decoder.dump(PG:69)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at juc.dump(PG:11)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at dwq.a(PG:317)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at dwq.dump(PG:313)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:159)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at android.os.Looper.loop(Looper.java:223)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at java.lang.reflect.Method.invoke(Native Method)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.512  1407  1407 W Delight5Decoder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.564  1407  1407 I FallbackOnDeviceRecognizerModule: FallbackOnDeviceRecognizerModule.dump():34 dump()
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.569  1407  1407 I AndroidIME: PopupSearchCandidateViewControllerExtension.dump():85 PopupSearchCandidateViewControllerExtension, popupSearchCandidateViewController:fus@26e3d81
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.604  1407  1421 I putmethod.lati: WaitForGcToComplete blocked Background on ProfileSaver for 9.031ms
+Sun Aug 30 21:27:45 UTC 2026 [ALL] 08-30 21:27:45.641  1407  1407 I putmethod.lati: Explicit concurrent copying GC freed 85597(3059KB) AllocSpace objects, 3(52KB) LOS objects, 24% free, 7049KB/9399KB, paused 12us total 15.652ms
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.666  1407  1425 I putmethod.lati: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.692  6111  6127 I om.habitnu.sta: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: Decoder.dump():1123 Failed to get dump info
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] qep.d()' on a null object reference
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at com.google.android.keyboard.client.delight5.Decoder.dump(PG:69)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at juc.dump(PG:11)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at dwq.a(PG:317)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at dwq.dump(PG:313)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:159)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at android.os.Looper.loop(Looper.java:223)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at java.lang.reflect.Method.invoke(Native Method)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.695  1407  1407 W Delight5Decoder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.710  1407  1407 I FallbackOnDeviceRecognizerModule: FallbackOnDeviceRecognizerModule.dump():34 dump()
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.710  1407  1407 I AndroidIME: PopupSearchCandidateViewControllerExtension.dump():85 PopupSearchCandidateViewControllerExtension, popupSearchCandidateViewController:fus@26e3d81
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.756  1407  1407 I putmethod.lati: Explicit concurrent copying GC freed 14079(621KB) AllocSpace objects, 19(376KB) LOS objects, 24% free, 6708KB/8945KB, paused 15us total 15.882ms
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.765  1407  1425 I putmethod.lati: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.786  6111  6127 I om.habitnu.sta: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: Decoder.dump():1123 Failed to get dump info
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] qep.d()' on a null object reference
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at com.google.android.keyboard.client.delight5.Decoder.dump(PG:69)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at juc.dump(PG:11)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at dwq.a(PG:317)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at dwq.dump(PG:313)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:159)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at android.os.Looper.loop(Looper.java:223)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at java.lang.reflect.Method.invoke(Native Method)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.788  1407  1407 W Delight5Decoder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.799  1407  1407 I FallbackOnDeviceRecognizerModule: FallbackOnDeviceRecognizerModule.dump():34 dump()
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.799  1407  1407 I AndroidIME: PopupSearchCandidateViewControllerExtension.dump():85 PopupSearchCandidateViewControllerExtension, popupSearchCandidateViewController:fus@26e3d81
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.841  1407  1407 I putmethod.lati: Explicit concurrent copying GC freed 13381(678KB) AllocSpace objects, 18(780KB) LOS objects, 24% free, 6711KB/8948KB, paused 10us total 14.576ms
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.849  1407  1425 I putmethod.lati: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.891  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.891  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.892  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:45.892  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.026  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.036  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.038  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff0000006a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff0000006a"}}
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.044  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000006a/attribute/displayed
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.044  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.046  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.051  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000006a/clear
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.051  6053  6096 I appium  : Clear command
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.054  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.058  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.063  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000006a/value
+Sun Aug 30 21:27:46 UTC 2026 [ALL] 08-30 21:27:46.063  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.661  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.873  1160  6419 V NativeCrypto: Read error: ssl=0x75c6b0409218: I/O error during system call, Connection reset by peer
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.880  1160  6419 V NativeCrypto: SSL shutdown failed: ssl=0x75c6b0409218: I/O error during system call, Broken pipe
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.881  1160  6419 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.881  1160  6419 W WakeLock: GCM_HB_ALARM counter does not exist
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.885   496   655 D ConnectivityService: reportNetworkConnectivity(100, false) by 10122
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.886   966  1581 D NetworkMonitor/100: Forcing reevaluation for UID 10122. Dns signal count: 0
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.891  1160  6419 W WakeLock: GCM_CONN_ALARM counter does not exist
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:46.898   966  7010 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 7ms OK 172.253.139.94,2607:f8b0:4004:c1f::5e
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.100  1451  7017 I Vision  : Requesting optional module download of ocr.
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.100  1451  7017 I Vision  : Checking for download completion for 656557 -- ocr
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.168  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.287  6111  6127 I om.habitnu.sta: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: Decoder.dump():1123 Failed to get dump info
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] qep.d()' on a null object reference
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at com.google.android.keyboard.client.delight5.Decoder.dump(PG:69)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at juc.dump(PG:11)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at dwq.a(PG:317)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at dwq.dump(PG:313)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:159)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at android.os.Looper.loop(Looper.java:223)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at java.lang.reflect.Method.invoke(Native Method)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.294  1407  1407 W Delight5Decoder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.329  1407  1407 I FallbackOnDeviceRecognizerModule: FallbackOnDeviceRecognizerModule.dump():34 dump()
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.329  1407  1407 I AndroidIME: PopupSearchCandidateViewControllerExtension.dump():85 PopupSearchCandidateViewControllerExtension, popupSearchCandidateViewController:fus@26e3d81
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.389   966  7009 D NetworkMonitor/100: PROBE_DNS www.google.com 495ms OK 142.251.156.119,142.251.152.119,142.251.154.119,142.251.153.119,142.251.157.119,142.251.155.119,142.251.150.119,142.251.151.119,2001:4860:4828:7700::,2001:4860:482b:7700::,2001:4860:482c:7700::,2001:4860:4827:7700::,2001:4860:4826:7700::,2001:4860:4829:7700::,2001:4860:482a:7700::,2001:4860:482d:7700::
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.415  1407  1407 I putmethod.lati: Waiting for a blocking GC Explicit
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.433  1407  1407 I putmethod.lati: WaitForGcToComplete blocked Explicit on ProfileSaver for 17.968ms
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.457  1407  1407 I putmethod.lati: Explicit concurrent copying GC freed 682(41KB) AllocSpace objects, 2(36KB) LOS objects, 24% free, 6694KB/8925KB, paused 15us total 23.383ms
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.466  1407  2494 I putmethod.lati: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.487  6111  6127 I om.habitnu.sta: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: Decoder.dump():1123 Failed to get dump info
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] qep.d()' on a null object reference
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at com.google.android.keyboard.client.delight5.Decoder.dump(PG:69)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at juc.dump(PG:11)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at dwq.a(PG:317)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at dwq.dump(PG:313)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:159)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at android.os.Looper.loop(Looper.java:223)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at java.lang.reflect.Method.invoke(Native Method)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.489  1407  1407 W Delight5Decoder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.499  1407  1407 I FallbackOnDeviceRecognizerModule: FallbackOnDeviceRecognizerModule.dump():34 dump()
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.500  1407  1407 I AndroidIME: PopupSearchCandidateViewControllerExtension.dump():85 PopupSearchCandidateViewControllerExtension, popupSearchCandidateViewController:fus@26e3d81
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.544  1407  1407 I putmethod.lati: Explicit concurrent copying GC freed 13058(660KB) AllocSpace objects, 15(456KB) LOS objects, 24% free, 6714KB/8952KB, paused 9us total 15.776ms
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.553  1407  2494 I putmethod.lati: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.574  6111  6127 I om.habitnu.sta: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: Decoder.dump():1123 Failed to get dump info
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] qep.d()' on a null object reference
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at com.google.android.keyboard.client.delight5.Decoder.dump(PG:69)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at juc.dump(PG:11)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at dwq.a(PG:317)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at dwq.dump(PG:313)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:159)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at android.os.Looper.loop(Looper.java:223)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at java.lang.reflect.Method.invoke(Native Method)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.576  1407  1407 W Delight5Decoder: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.588  1407  1407 I FallbackOnDeviceRecognizerModule: FallbackOnDeviceRecognizerModule.dump():34 dump()
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.588  1407  1407 I AndroidIME: PopupSearchCandidateViewControllerExtension.dump():85 PopupSearchCandidateViewControllerExtension, popupSearchCandidateViewController:fus@26e3d81
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.631  1407  1407 I putmethod.lati: Explicit concurrent copying GC freed 13711(665KB) AllocSpace objects, 15(456KB) LOS objects, 24% free, 6731KB/8975KB, paused 10us total 16.090ms
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.640  1407  2494 I putmethod.lati: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.649  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/screenshot
+Sun Aug 30 21:27:47 UTC 2026 [ALL] 08-30 21:27:47.650  6053  6096 I appium  : CaptureScreenshot command
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.707   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.709  7034  7034 I Gralloc4: mapper 4.x is not supported
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.724  7034  7034 D HostConnection: createUnique: call
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.727  7034  7034 D HostConnection: HostConnection::get() New Host Connection established 0x730197b15250, tid 7034
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.758  7034  7034 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.878   966  7010 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=976ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 30 Aug 2026 21:27:47 GMT], X-Android-Received-Millis=[1788125267876], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1788125267375]}
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:47.995  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17dNb1nSfwzy/3cAkQLgIqoiBitUVR8UKgjlCtVq1VttpZ20Gr7m7HqTvbOtP2nOnRabdnz845M7O73TOj05bYWifdotbOjJfqWFtovWCtaKkIAiqKcgsShISEPL/9w0mGXElIfs+TwOt…
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:48.027  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/source
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:48.027  6053  6096 I appium  : Source command
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:48.028  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:27:48 UTC 2026 [ALL] 08-30 21:27:48.057  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1440\" height=\"2392\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.habitnu.stag\" class=\"android…

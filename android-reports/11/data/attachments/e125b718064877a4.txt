@@ -1,0 +1,643 @@
+Sun Aug 30 21:20:49 UTC 2026 [ALL] 08-30 21:20:49.610   496  3048 I ActivityManager: Killing 4683:com.google.android.youtube/u0a147 (adj 975): empty #17
+Sun Aug 30 21:20:49 UTC 2026 [ALL] 08-30 21:20:49.641   496  1285 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10147 AdministratorUids: [] RequestorUid: 10147 RequestorPackageName: com.google.android.youtube] ], android.os.BinderProxy@4920ded)
+Sun Aug 30 21:20:49 UTC 2026 [ALL] 08-30 21:20:49.642   496  1956 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=35, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Uid: 10147 AdministratorUids: [] RequestorUid: 10147 RequestorPackageName: com.google.android.youtube] ], android.os.BinderProxy@324b404)
+Sun Aug 30 21:20:49 UTC 2026 [ALL] 08-30 21:20:49.644   496   655 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10147 AdministratorUids: [] RequestorUid: 10147 RequestorPackageName: com.google.android.youtube] ] (release request)
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.667   496  3048 I ActivityManager: Killing 4971:com.google.android.apps.maps/u0a134 (adj 985): empty #17
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.668   285   285 I Zygote  : Process 4683 exited due to signal 9 (Killed)
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.670   496   540 I libprocessgroup: Successfully killed process cgroup uid 10147 pid 4683 in 44ms
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.730   709   709 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.737  1052  1052 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.738  1052  1052 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.739   709   709 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@feb8c55 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.744   285   285 I Zygote  : Process 4971 exited due to signal 9 (Killed)
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.760   496   540 I libprocessgroup: Successfully killed process cgroup uid 10134 pid 4971 in 89ms
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.973     0     0 D logd    : logdr: UID=2000 GID=2000 PID=6269 n tail=0 logMask=10 pid=0 start=0ns timeout=0ns
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.839  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.839  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.842  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.842  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.842  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.885  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.891  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.908  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.911  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.916  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.932  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.932  6053  6096 I appium  : Clear command
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.937  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.957  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.989  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/value
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:49.989  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:20:50 UTC 2026 [ALL] 08-30 21:20:50.456  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.672   496   809 I ActivityManager: Killing 3258:com.google.android.gms.unstable/u0a122 (adj 985): empty #17
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.677   496  3048 I ActivityManager: Killing 5389:com.google.android.gm/u0a135 (adj 975): empty #17
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.688   285   285 I Zygote  : Process 5389 exited due to signal 9 (Killed)
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.698   285   285 I Zygote  : Process 3258 exited due to signal 9 (Killed)
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.718   496   540 I libprocessgroup: Successfully killed process cgroup uid 10122 pid 3258 in 44ms
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.718   496   540 I libprocessgroup: Successfully killed process cgroup uid 10135 pid 5389 in 0ms
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:50.982  1407  1407 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.007  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.034  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.034  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.037  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.037  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.048   496   496 D AutofillInlineSuggestionsRequestSession: onCreateInlineSuggestionsRequestLocked called: 1073741824@2134730109
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.120  6111  6111 I AssistStructure: Flattened final assist data: 3272 bytes, containing 1 windows, 19 views
+Sun Aug 30 21:20:51 UTC 2026 [ALL] 08-30 21:20:51.471   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.730  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.755  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.758  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.768  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.769  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.772  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.783  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.784  6053  6096 I appium  : Clear command
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.786  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.790  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.800  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/value
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:51.801  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:52.290  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:52.571  1451  6273 I Vision  : Requesting optional module download of ocr.
+Sun Aug 30 21:20:52 UTC 2026 [ALL] 08-30 21:20:52.572  1451  6273 I Vision  : Checking for download completion for 242028 -- ocr
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:52.796  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:52.817  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:52.817  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:52.819  6053  6096 I appium  : method: 'xpath', selector: '//*[@text='Sign in']'
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:52.819  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.295  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.321  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[@text='Sign in']' XPath2 query
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.323  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000031","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000031"}}
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.332  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000031/attribute/displayed
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.332  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.335  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.343  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000031/attribute/enabled
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.343  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.346  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.355  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000031/click
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.355  6053  6096 I appium  : Click command
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.427  6053  6096 W GestureController: Gestures took longer than expected (69ms >> 16ms), device might be in a busy state.
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.427  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.428  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.505  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.507  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.510  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Login Information is Incorrect')]'
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.510  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.511  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:53 UTC 2026 [ALL] 08-30 21:20:53.528   496   805 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:54 UTC 2026 [ALL] 08-30 21:20:53.528   496   805 I chatty  : uid=1000(system) Binder:496_7 identical 1 line
+Sun Aug 30 21:20:54 UTC 2026 [ALL] 08-30 21:20:53.528   496   805 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:54 UTC 2026 [ALL] 08-30 21:20:53.698  6111  6164 I ReactNativeJS: [AxiosError: Request failed with status code 422]
+Sun Aug 30 21:20:54 UTC 2026 [ALL] 08-30 21:20:53.703   496   805 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:54 UTC 2026 [ALL] 08-30 21:20:54.312  6053  6096 I appium  : Took 0ms to retrieve 0 matches for '//*[contains(@text, 'Login Information is Incorrect')]' XPath2 query
+Sun Aug 30 21:20:54 UTC 2026 [ALL] 08-30 21:20:54.315  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n"}}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.836  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.836  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.837  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Login Information is Incorrect')]'
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.837  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.839  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.862  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Login Information is Incorrect')]' XPath2 query
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.864  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000043","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000043"}}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.888  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000043/attribute/displayed
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.888  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.893  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.911  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000043/attribute/displayed
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.911  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.915  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.926  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.926  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.926  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Login Information is Incorrect')]'
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.926  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.927  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.949  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Login Information is Incorrect')]' XPath2 query
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.951  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000043","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000043"}}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.961  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000043/attribute/displayed
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.961  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.965  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.973  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000043/text
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.973  6053  6096 I appium  : GetText command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.975  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"Login Information is Incorrect."}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.996  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.997  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.997  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:54.998  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.001  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.021  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.023  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.033  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.034  6053  6096 I appium  : Clear command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.037  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.041  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.052  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.052  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.056  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.056  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.542  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.561  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.563  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.572  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.572  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.575  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.588  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.588  6053  6096 I appium  : Clear command
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.593  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.597  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.623  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/value
+Sun Aug 30 21:20:55 UTC 2026 [ALL] 08-30 21:20:55.623  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.100  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.150  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.195  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.195  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.196  6053  6096 I appium  : method: 'xpath', selector: '//*[@text='Sign in']'
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.196  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.559   699   699 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.573   496  1721 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:56 UTC 2026 [ALL] 08-30 21:20:56.643  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.669  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[@text='Sign in']' XPath2 query
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.671  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000044","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000044"}}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.682  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/displayed
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.683  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.687  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.695  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/enabled
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.695  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.699  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.707  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/click
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.707  6053  6096 I appium  : Click command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.820   377   454 D AudioFlinger: mixer(0x776741ccc040) throttle end: throttle time(44)
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.820  6053  6096 W GestureController: Gestures took longer than expected (82ms >> 16ms), device might be in a busy state.
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.820  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.825  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.826   496  3044 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.839   496  3044 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.839   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.863  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.863  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.866   377   454 D AudioFlinger: mixer(0x776741ccc040) throttle end: throttle time(32)
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.866  6053  6096 I appium  : method: 'xpath', selector: '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]'
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:56.866  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.066   496  3044 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.559  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.579  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]' XPath2 query
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.581  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000043","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000043"}}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.597  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000043/attribute/displayed
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.597  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.601  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.615  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.615  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.616  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Please enter a valid email id')]'
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.616  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.618  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.639  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Please enter a valid email id')]' XPath2 query
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.640  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000024"}}
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.649  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.649  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:57 UTC 2026 [ALL] 08-30 21:20:57.653  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.661  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.661  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.663  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.672  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.672  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.673  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Please enter a valid email id')]'
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.673  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.675  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.696  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Please enter a valid email id')]' XPath2 query
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.698  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000024"}}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.705  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.706  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.709  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.715  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.716  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.718  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.725  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.726  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.727  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Please enter a valid email id')]'
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.727  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.728  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.748  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Please enter a valid email id')]' XPath2 query
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.750  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000024"}}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.758  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.758  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.761  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.769  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/text
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.769  6053  6096 I appium  : GetText command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.772  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"Please enter a valid email id"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.790  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.790  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.791  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.791  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.795  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.820  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.822  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.832  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.833  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.836  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.843  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.844  6053  6096 I appium  : Clear command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.846  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.850  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.864  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/value
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:57.865  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:20:58 UTC 2026 [ALL] 08-30 21:20:58.353  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:58.861  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:58.881  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:58.886  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:58.887  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:58.887  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.490  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.509  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.511  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.524  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.524  6053  6096 I appium  : Clear command
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.527  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.531  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.561  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.561  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.562  6053  6096 I appium  : method: 'xpath', selector: '//*[@text='Sign in']'
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.562  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.601   496  1722 I ActivityManager: Killing 5113:com.google.android.configupdater/u0a118 (adj 975): empty #17
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.613   285   285 I Zygote  : Process 5113 exited due to signal 9 (Killed)
+Sun Aug 30 21:20:59 UTC 2026 [ALL] 08-30 21:20:59.642   496   540 I libprocessgroup: Successfully killed process cgroup uid 10118 pid 5113 in 37ms
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:20:59.863   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.003   709   709 D KeyguardClockSwitch: Updating clock: 921
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.606  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.632  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[@text='Sign in']' XPath2 query
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.634  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000044","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000044"}}
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.644  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/displayed
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.644  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:00 UTC 2026 [ALL] 08-30 21:21:00.647  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.655  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/enabled
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.655  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.658  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.666  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/click
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.667  6053  6096 I appium  : Click command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.718  6053  6096 W GestureController: Gestures took longer than expected (48ms >> 16ms), device might be in a busy state.
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.718  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.721  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.755   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.755   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.821  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.823  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.825  6053  6096 I appium  : method: 'xpath', selector: '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[5]'
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.825  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:00.829  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.195   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.401  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[5]' XPath2 query
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.410  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000033","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000033"}}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.436  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000033/attribute/displayed
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.437  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.569  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.579  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.579  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.580  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'password') and (contains(@text, 'required') or contains(@text, 'enter'))]'
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.580  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.581  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.605  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'password') and (contains(@text, 'required') or contains(@text, 'enter'))]' XPath2 query
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.608  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff0000002d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff0000002d"}}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.621  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000002d/attribute/displayed
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.622  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.626  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.635  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000002d/attribute/displayed
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.635  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.638  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.646  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.646  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.647  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'password') and (contains(@text, 'required') or contains(@text, 'enter'))]'
+Sun Aug 30 21:21:01 UTC 2026 [ALL] 08-30 21:21:01.647  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.648  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.671  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'password') and (contains(@text, 'required') or contains(@text, 'enter'))]' XPath2 query
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.673  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff0000002d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff0000002d"}}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.681  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000002d/attribute/displayed
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.681  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.685  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.691  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000002d/attribute/displayed
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.692  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.694  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.703  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.703  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.706  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'password') and (contains(@text, 'required') or contains(@text, 'enter'))]'
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.708  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.709  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.738  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'password') and (contains(@text, 'required') or contains(@text, 'enter'))]' XPath2 query
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.740  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff0000002d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff0000002d"}}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.747  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000002d/attribute/displayed
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.748  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.751  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.759  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff0000002d/text
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.760  6053  6096 I appium  : GetText command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.763  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"Please enter a valid password"}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.793  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.793  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.794  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.794  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.797  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.860  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.863  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.877  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.877  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.882  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.895  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.895  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.903  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.911  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.948  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/value
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:01.948  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:02.413  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:02.579  1451  6278 I Vision  : Requesting optional module download of ocr.
+Sun Aug 30 21:21:02 UTC 2026 [ALL] 08-30 21:21:02.579  1451  6278 I Vision  : Checking for download completion for 252035 -- ocr
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:02.920  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:02.935  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:02.935  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:02.937  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:02.937  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.421  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.440  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.442  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.449  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.449  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.452  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.459  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.459  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.462  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.465  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.488  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/value
+Sun Aug 30 21:21:03 UTC 2026 [ALL] 08-30 21:21:03.491  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:03.800   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:03.920  1407  1425 W LatinSpellCheckerSession: LatinSpellCheckerSession.initializeDecoder():215 initializeDecoder() : Failed to initialize in 5059 ms
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:03.968  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.473  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.484  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.485  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.486  6053  6096 I appium  : method: 'xpath', selector: '//*[@text='Sign in']'
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.486  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.495   699   699 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.501  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.619  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[@text='Sign in']' XPath2 query
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.637  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000044","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000044"}}
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.651  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/displayed
+Sun Aug 30 21:21:04 UTC 2026 [ALL] 08-30 21:21:04.651  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.081  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.089  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/enabled
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.089  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.092  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.100  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/click
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.101  6053  6096 I appium  : Click command
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.184   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.184   496  1954 I chatty  : uid=1000(system) Binder:496_13 identical 1 line
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.184   496  1954 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.194   377   454 D AudioFlinger: mixer(0x776741ccc040) throttle end: throttle time(39)
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.241  6053  6096 W GestureController: Gestures took longer than expected (132ms >> 16ms), device might be in a busy state.
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.243  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.246  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.268  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.268  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.271  6053  6096 I appium  : method: 'xpath', selector: '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]'
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.271  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:05 UTC 2026 [ALL] 08-30 21:21:05.287  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:05.667   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:05.751  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]' XPath2 query
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:05.759  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000043","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000043"}}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:05.779  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000043/attribute/displayed
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:05.779  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.004  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.013  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.013  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.014  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Please enter a valid email id')]'
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.014  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.015  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.035  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Please enter a valid email id')]' XPath2 query
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.037  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000024"}}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.045  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.045  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.048  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.055  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.055  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.057  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.066  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.066  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.068  6053  6096 I appium  : method: 'xpath', selector: '//*[contains(@text, 'Please enter a valid email id')]'
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.068  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.070  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.100  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[contains(@text, 'Please enter a valid email id')]' XPath2 query
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.102  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000024"}}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.110  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/attribute/displayed
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.111  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.114  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.119  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000024/text
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.119  6053  6096 I appium  : GetText command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.122  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"Please enter a valid email id"}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.139  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.140  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.141  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.141  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.142  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.159  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.161  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.168  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.168  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.172  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.178  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.178  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.180  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.184  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.203  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/value
+Sun Aug 30 21:21:06 UTC 2026 [ALL] 08-30 21:21:06.203  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:07 UTC 2026 [ALL] 08-30 21:21:06.789  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:07 UTC 2026 [ALL] 08-30 21:21:07.297  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:07 UTC 2026 [ALL] 08-30 21:21:07.328  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:07 UTC 2026 [ALL] 08-30 21:21:07.328  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:07 UTC 2026 [ALL] 08-30 21:21:07.329  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:21:07 UTC 2026 [ALL] 08-30 21:21:07.329  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.795  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.813  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.815  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.826  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.826  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.830  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.847  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.847  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.848  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.848  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.850  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.877  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.879  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.890  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.890  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.897  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.908  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.908  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.911  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.913  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.946  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/value
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:07.947  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.238   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.417  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.435  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.507  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.507  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.512  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:21:08 UTC 2026 [ALL] 08-30 21:21:08.512  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.936  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.953  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.955  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.960  1407  1425 W LatinSpellCheckerSession: LatinSpellCheckerSession.initializeDecoder():215 initializeDecoder() : Failed to initialize in 5040 ms
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.963  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.963  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.967  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.983  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.983  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.984  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.984  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:08.985  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.012  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.014  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.027  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.027  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.032  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.045  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.046  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.049  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.059  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.082  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/value
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.082  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:09 UTC 2026 [ALL] 08-30 21:21:09.556  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.064  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.076  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.076  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.078  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.078  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.422  1987  2454 W GmsLocationProvider: Error removing location updates: 16
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.565  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.584  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.587  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.598  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.598  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.601  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.607  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.607  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.609  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.611  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.621  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/value
+Sun Aug 30 21:21:10 UTC 2026 [ALL] 08-30 21:21:10.621  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:11 UTC 2026 [ALL] 08-30 21:21:11.115  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:11 UTC 2026 [ALL] 08-30 21:21:11.620  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:11 UTC 2026 [ALL] 08-30 21:21:11.643  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:11 UTC 2026 [ALL] 08-30 21:21:11.643  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:11 UTC 2026 [ALL] 08-30 21:21:11.644  6053  6096 I appium  : method: 'xpath', selector: '//*[@text='Sign in']'
+Sun Aug 30 21:21:11 UTC 2026 [ALL] 08-30 21:21:11.644  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.121  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.140  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[@text='Sign in']' XPath2 query
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.143  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000044","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000044"}}
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.152  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/displayed
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.153  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.156  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.161  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/attribute/enabled
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.161  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.164  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.170  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000044/click
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.171  6053  6096 I appium  : Click command
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.218  6053  6096 W GestureController: Gestures took longer than expected (46ms >> 16ms), device might be in a busy state.
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.219  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.220  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.245  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.245  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.246  6053  6096 I appium  : method: 'xpath', selector: '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]'
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.246  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.247  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.262   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.262   496  1722 I chatty  : uid=1000(system) Binder:496_E identical 1 line
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.262   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.263   377   454 D AudioFlinger: mixer(0x776741ccc040) throttle end: throttle time(36)
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.310   377   454 D AudioFlinger: mixer(0x776741ccc040) throttle end: throttle time(33)
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.432   699   699 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.446  6111  6164 I ReactNativeJS: [AxiosError: Request failed with status code 422]
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.622  1451  6283 I Vision  : Requesting optional module download of ocr.
+Sun Aug 30 21:21:12 UTC 2026 [ALL] 08-30 21:21:12.622  1451  6283 I Vision  : Checking for download completion for 262079 -- ocr
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:12.849  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]' XPath2 query
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:12.851  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000033","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000033"}}
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:12.877   496  3765 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:12.904  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000033/attribute/displayed
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:12.904  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.511  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.534  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.534  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.535  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[1]'
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.536  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.538  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.555  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[1]' XPath2 query
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.557  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000023"}}
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.566  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/attribute/displayed
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.566  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.571  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.578  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/clear
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.578  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.580  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.584  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.608  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000023/value
+Sun Aug 30 21:21:13 UTC 2026 [ALL] 08-30 21:21:13.608  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.001  1407  1425 W LatinSpellCheckerSession: LatinSpellCheckerSession.initializeDecoder():215 initializeDecoder() : Failed to initialize in 5040 ms
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.087  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.565     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.594  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.603  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.603  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.605  6053  6096 I appium  : method: 'xpath', selector: '(//android.widget.EditText)[2]'
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.605  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:14 UTC 2026 [ALL] 08-30 21:21:14.610  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:14.666  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '(//android.widget.EditText)[2]' XPath2 query
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:14.669  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000027","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000027"}}
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:14.686  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/attribute/displayed
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:14.686  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.095  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.104  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/clear
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.104  6053  6096 I appium  : Clear command
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.107  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.111  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.117  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000027/value
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.118  6053  6096 I appium  : SendKeysToElement command
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.307   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:15 UTC 2026 [ALL] 08-30 21:21:15.612  6053  6096 D UiObject2: Setting text to ''.
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.117  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.138  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.139  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.143  6053  6096 I appium  : method: 'xpath', selector: '//*[@text='Sign in']'
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.143  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.618  6053  6096 I appium  : The following attributes will be included to the page source: [text]
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.638  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '//*[@text='Sign in']' XPath2 query
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.640  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000047","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000047"}}
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.649  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000047/attribute/displayed
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.649  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:16 UTC 2026 [ALL] 08-30 21:21:16.652  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.662  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000047/attribute/enabled
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.662  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.667  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.679  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000047/click
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.679  6053  6096 I appium  : Click command
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.741  6053  6096 W GestureController: Gestures took longer than expected (55ms >> 16ms), device might be in a busy state.
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.742  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.742  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":null}
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.769   496   805 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.769   496   805 I chatty  : uid=1000(system) Binder:496_7 identical 1 line
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.769   496   805 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.826  6053  6096 I appium  : channel read: POST /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.827  6053  6096 I appium  : FindElement command
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.827  6053  6096 I appium  : method: 'xpath', selector: '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]'
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.827  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:16.937  6111  6164 I ReactNativeJS: [AxiosError: Request failed with status code 422]
+Sun Aug 30 21:21:17 UTC 2026 [ALL] 08-30 21:21:17.303   496  1722 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.733  6053  6096 I appium  : The following attributes will be included to the page source: []
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.756  6053  6096 I appium  : Took 0ms to retrieve 1 matches for '((//android.widget.EditText)[1]//parent::android.view.ViewGroup//parent::android.view.ViewGroup/android.widget.TextView)[4]' XPath2 query
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.759  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":{"ELEMENT":"00000000-0000-0009-ffff-ffff00000033","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-ffff-ffff00000033"}}
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.770  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/element/00000000-0000-0009-ffff-ffff00000033/attribute/displayed
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.771  6053  6096 I appium  : GetElementAttribute command
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.774  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"true"}
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.781  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/screenshot
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.781  6053  6096 I appium  : CaptureScreenshot command
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.843   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.844  6285  6285 I Gralloc4: mapper 4.x is not supported
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.862  6285  6285 D HostConnection: createUnique: call
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.871  6285  6285 D HostConnection: HostConnection::get() New Host Connection established 0x7f3dff1249d0, tid 6285
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:17.910  6285  6285 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:18.146  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dFf1nfj/180elhCWQERBZBPFiqLiQmSoW+taap067dhtusxMa8fpVLud0x5tOz2znGk7M51v66+nB7daOtO6dFGs1mJlRhClLkURZFEQZIewJGT53N8fTjKGBEhIbj4JPB7neHo+N5/…
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:18.172  6053  6096 I appium  : channel read: GET /session/13454114-25b9-4b9f-9cc6-c67b9c5a780e/source
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:18.172  6053  6096 I appium  : Source command
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:18.173  6053  6096 I appium  : Waiting up to 10000ms for the device to idle
+Sun Aug 30 21:21:18 UTC 2026 [ALL] 08-30 21:21:18.211  6053  6096 I appium  : AppiumResponse: {"sessionId":"13454114-25b9-4b9f-9cc6-c67b9c5a780e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1440\" height=\"2392\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.habitnu.stag\" class=\"android…
