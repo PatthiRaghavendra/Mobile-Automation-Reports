@@ -178,48 +178,100 @@
             <div class="logo">🤖</div>
             <div class="titles"><h2>Android</h2><p>Weekly QA Dashboard</p></div>
           </div>
-          <div class="daterange"><div class="label">Reporting Period</div><div class="value">2026-08-17 – 2026-08-24</div></div>
+          <div class="daterange"><div class="label">Reporting Period</div><div class="value">2026-08-24 – 2026-08-31</div></div>
         </div>
         <div class="exec-banner">
-          <div class="narrative">During the period from 2026-08-17 to 2026-08-24, all platforms (Android, iOS, Android (Physical), and iOS (Physical)) recorded zero test runs, passes, failures, or skips.</div>
-          <div class="priority" style="background:rgba(229,72,77,0.14);color:#e5484d">Investigate why zero test runs occurred across all platforms.</div>
+          <div class="narrative">During the week of 2026-08-24 to 2026-08-31, only Android had test execution with 1 run containing 10 passed and 16 failed tests, resulting in a 38.5% pass rate. iOS, Android (Physical), and iOS (Physical) had zero runs.</div>
+          <div class="priority" style="background:rgba(229,72,77,0.14);color:#e5484d">Investigate Android run failures (38.5% pass rate).</div>
         </div>
         <div class="grid-row1">
           <div class="card score-card">
       <div class="score-ring-wrap">
         <svg width="148" height="148" viewBox="0 0 148 148">
           <path d="M 73.98848082699531 8.000001005237479 A 66 66 0 1 0 74.0 8.0 L 74.0 20.0 A 54 54 0 1 1 73.99057522208707 20.00000082246703 Z" fill="#1a222b" />
+          <path d="M 74.0 140.0 A 66 66 0 0 0 74.0 8.0 L 74.0 20.0 A 54 54 0 0 1 74.0 128.0 Z" fill="#e5484d" />
         </svg>
-        <div class="score-num"><div class="n" style="color:var(--ink-faint);font-size:20px;">—</div><div class="of">no data</div></div>
+        <div class="score-num">
+          <div class="n" style="color:#e5484d">50</div>
+          <div class="of">/ 100</div>
+        </div>
       </div>
       <div class="score-meta">
-        <div class="desc">No runs recorded this week — health score unavailable.</div>
+        <div class="band-row">
+          <div class="band" style="background:rgba(229,72,77,0.14);color:#e5484d">● At risk</div>
+          <span class="wow" style="color:var(--ink-faint)">No prior week data</span>
+        </div>
+        <div class="desc">Weighted from pass rate, test stability, and suite duration across the week.</div>
+        <div class="factors"><div class="factor-row"><span class="fname">Pass rate</span>
+        <div class="factor-bar-track"><div class="factor-bar-fill" style="width:38%;background:#e5484d"></div></div>
+        <span class="fval">38</span></div><div class="factor-row"><span class="fname">Stability</span>
+        <div class="factor-bar-track"><div class="factor-bar-fill" style="width:36%;background:#e5484d"></div></div>
+        <span class="fval">36</span></div><div class="factor-row"><span class="fname">Duration</span>
+        <div class="factor-bar-track"><div class="factor-bar-fill" style="width:100%;background:#2ea043"></div></div>
+        <span class="fval">100</span></div></div>
       </div>
     </div>
           <div class="card">
-      <div class="card-title"><h3>Pass Rate Trend</h3><span class="badge">7d · %</span></div>
-      <div class="chart-svg-wrap" style="display:flex;align-items:center;justify-content:center;color:var(--ink-faint);font-size:12.5px;">No data this week</div>
+      <div class="card-title"><h3>Pass Rate Trend</h3><span class="badge">1 run(s) · %</span></div>
+      <div class="chart-svg-wrap"><svg width="100%" height="100%" viewBox="0 0 700 210" preserveAspectRatio="none">
+      <line x1="34" x2="686" y1="184.0" y2="184.0" stroke="#1e262f" stroke-width="1" /><text x="26" y="188.0" text-anchor="end" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">0</text><line x1="34" x2="686" y1="141.5" y2="141.5" stroke="#1e262f" stroke-width="1" /><text x="26" y="145.5" text-anchor="end" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">25</text><line x1="34" x2="686" y1="99.0" y2="99.0" stroke="#1e262f" stroke-width="1" /><text x="26" y="103.0" text-anchor="end" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">50</text><line x1="34" x2="686" y1="56.5" y2="56.5" stroke="#1e262f" stroke-width="1" /><text x="26" y="60.5" text-anchor="end" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">75</text><line x1="34" x2="686" y1="14.0" y2="14.0" stroke="#1e262f" stroke-width="1" /><text x="26" y="18.0" text-anchor="end" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">100</text>
+      <path d="M 34 184 L 34 118.55 L 34 184 Z" fill="#3ddc55" opacity="0.08" />
+      <path d="M 34 118.55" fill="none" stroke="#3ddc55" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+      <circle cx="34" cy="118.55" r="11" fill="#2ea043" opacity="0.16" /><circle cx="34" cy="118.55" r="6" fill="#2ea043" stroke="#0b0f14" stroke-width="2" /><text x="34" y="204" text-anchor="middle" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">30</text>
+    </svg></div>
+      <div class="chart-callouts">
+      <span class="callout"><span class="dot" style="background:#2ea043"></span>Best: Aug 30 · 38.5%</span>
+      <span class="callout"><span class="dot" style="background:#e5484d"></span>Worst: Aug 30 · 38.5%</span>
+    </div>
     </div>
           <div class="card">
-      <div class="card-title"><h3>Suite Duration Trend</h3><span class="badge">avg —</span></div>
-      <div class="chart-svg-wrap" style="display:flex;align-items:center;justify-content:center;color:var(--ink-faint);font-size:12.5px;">No data this week</div>
+      <div class="card-title"><h3>Suite Duration Trend</h3><span class="badge">avg 18.1m</span></div>
+      <div class="chart-svg-wrap"><svg width="100%" height="100%" viewBox="0 0 700 210" preserveAspectRatio="none">
+      <line x1="34" x2="686" y1="36.17391304347825" y2="36.17391304347825" stroke="#5b6673" stroke-width="1" stroke-dasharray="4 4" /><text x="686" y="31.17391304347825" text-anchor="end" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">avg</text>
+      <rect x="180.7" y="36.17391304347825" width="358.6" height="147.82608695652175" rx="3" fill="#e5484d" opacity="0.95" /><text x="360.0" y="28.17391304347825" text-anchor="middle" fill="#e5484d" font-size="10" font-weight="700">▲ spike</text><text x="360.0" y="204" text-anchor="middle" fill="#5b6673" font-size="10" font-family="ui-monospace,monospace">30</text>
+    </svg></div>
+      <div class="chart-callouts">
+      <span class="callout"><span class="dot" style="background:#e5484d"></span>Spike: Aug 30 · 18.1m (0% over avg)</span>
+    </div>
     </div>
         </div>
         <div class="grid-row2">
           <div class="card">
       <div class="card-title"><h3>Failure Breakdown</h3><span class="badge">by type</span></div>
-      <div class="donut-row" style="align-items:center;justify-content:center;color:var(--ink-faint);font-size:12.5px;">No failures this week</div>
+      <div class="donut-row"><svg width="150" height="150" viewBox="0 0 150 150">
+      <path d="M 28.45079679684919 124.569866664656 A 68 68 0 1 0 75.0 7.0 L 75.0 31.0 A 44 44 0 1 1 44.87992733913771 107.07461960654211 Z" fill="#d9922e" /><path d="M 74.99999999999999 7.0 A 68 68 0 0 0 28.45079679684919 124.569866664656 L 44.87992733913771 107.07461960654211 A 44 44 0 0 1 74.99999999999999 31.0 Z" fill="#e5484d" />
+      <text x="75" y="71" text-anchor="middle" fill="#e9eef3" font-size="13" font-weight="700">by type</text>
+      <text x="75" y="87" text-anchor="middle" fill="#5b6673" font-size="10">failures</text>
+    </svg><div class="donut-legend"><div class="legend-item"><span class="sw" style="background:#d9922e"></span>
+        <span class="lbl">Timeout / wait expired</span><span class="pct">62%</span></div><div class="legend-item"><span class="sw" style="background:#e5484d"></span>
+        <span class="lbl">Assertion / product defect</span><span class="pct">38%</span></div></div></div>
     </div>
           <div class="card">
       <div class="card-title"><h3>Flaky Test Leaderboard</h3><span class="badge">top 5</span></div>
-      <div class="flaky-list" style="align-items:center;justify-content:center;color:var(--ink-faint);font-size:12.5px;">No flaky tests detected this week</div>
+      <div class="flaky-list"><div class="flaky-row"><span class="flaky-rank">#1</span>
+        <span class="flaky-name">Verify login with empty credentials shows validation errors</span>
+        <div class="flaky-bar-track"><div class="flaky-bar-fill" style="width:100.0%"></div></div>
+        <span class="flaky-count">1 flips</span></div><div class="flaky-row"><span class="flaky-rank">#2</span>
+        <span class="flaky-name">Verify email with special characters</span>
+        <div class="flaky-bar-track"><div class="flaky-bar-fill" style="width:100.0%"></div></div>
+        <span class="flaky-count">1 flips</span></div><div class="flaky-row"><span class="flaky-rank">#3</span>
+        <span class="flaky-name">Verify navigation links are visible</span>
+        <div class="flaky-bar-track"><div class="flaky-bar-fill" style="width:100.0%"></div></div>
+        <span class="flaky-count">1 flips</span></div><div class="flaky-row"><span class="flaky-rank">#4</span>
+        <span class="flaky-name">Verify footer links are visible</span>
+        <div class="flaky-bar-track"><div class="flaky-bar-fill" style="width:100.0%"></div></div>
+        <span class="flaky-count">1 flips</span></div><div class="flaky-row"><span class="flaky-rank">#5</span>
+        <span class="flaky-name">Verify register link functionality</span>
+        <div class="flaky-bar-track"><div class="flaky-bar-fill" style="width:100.0%"></div></div>
+        <span class="flaky-count">1 flips</span></div></div>
+      <div class="overflow-note">+ 11 more flaky test(s) this week</div>
     </div>
           <div class="card">
       <div class="card-title"><h3>Week-over-Week Changes</h3><span class="badge">vs last week</span></div>
       <div class="split-card">
         <div class="split-half bad">
-          <div class="shead">✕ New failures (0)</div>
-          <div class="test-chip-list"><div class="overflow-note">No new failures</div></div>
+          <div class="shead">✕ New failures (16)</div>
+          <div class="test-chip-list"><div class="test-chip">Verify app state persistence after backgrounding</div><div class="test-chip">Verify email with special characters</div><div class="test-chip">Verify field navigation and tab order</div><div class="test-chip">Verify footer links are visible</div><div class="overflow-note">+ 12 more</div></div>
         </div>
         <div class="split-half good">
           <div class="shead">✓ Recovered (0)</div>
@@ -229,8 +281,8 @@
     </div>
         </div>
         <div class="frame-footer">
-          <span>QA Engineering <span class="fdot">·</span> 0 runs this week <span class="fdot">·</span> — tests in latest suite</span>
-          <span>Generated Aug 24, 2026</span>
+          <span>QA Engineering <span class="fdot">·</span> 1 runs this week <span class="fdot">·</span> 26 tests in latest suite</span>
+          <span>Generated Aug 31, 2026</span>
         </div>
       </div>
     </div>
@@ -242,11 +294,11 @@
             <div class="logo">🍎</div>
             <div class="titles"><h2>iOS</h2><p>Weekly QA Dashboard</p></div>
           </div>
-          <div class="daterange"><div class="label">Reporting Period</div><div class="value">2026-08-17 – 2026-08-24</div></div>
+          <div class="daterange"><div class="label">Reporting Period</div><div class="value">2026-08-24 – 2026-08-31</div></div>
         </div>
         <div class="exec-banner">
-          <div class="narrative">During the period from 2026-08-17 to 2026-08-24, all platforms (Android, iOS, Android (Physical), and iOS (Physical)) recorded zero test runs, passes, failures, or skips.</div>
-          <div class="priority" style="background:rgba(229,72,77,0.14);color:#e5484d">Investigate why zero test runs occurred across all platforms.</div>
+          <div class="narrative">During the week of 2026-08-24 to 2026-08-31, only Android had test execution with 1 run containing 10 passed and 16 failed tests, resulting in a 38.5% pass rate. iOS, Android (Physical), and iOS (Physical) had zero runs.</div>
+          <div class="priority" style="background:rgba(229,72,77,0.14);color:#e5484d">Investigate Android run failures (38.5% pass rate).</div>
         </div>
         <div class="grid-row1">
           <div class="card score-card">
@@ -294,7 +346,7 @@
         </div>
         <div class="frame-footer">
           <span>QA Engineering <span class="fdot">·</span> 0 runs this week <span class="fdot">·</span> — tests in latest suite</span>
-          <span>Generated Aug 24, 2026</span>
+          <span>Generated Aug 31, 2026</span>
         </div>
       </div>
     </div>
